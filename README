@@ -33,6 +33,12 @@ You define the number of images in controller.html with adjusting :
 	
 	controller_object.total_items = 5,
 
+And more importantly make sure you have defined the ip address of the machine that is serving Node.js
+
+This has be updated in view.html and controller.html 
+
+	connection_client.node_server = "http://192.168.0.15";
+
 
 Enjoy!
 

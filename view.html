@@ -29,6 +29,8 @@
 			 
 			var connection_client = new Connection_Client();
 			
+				// Your machines ip address on your network
+				connection_client.node_server = "http://192.168.0.15";
 				// Set the name of the device for logging actions, debugging etc
 				connection_client.device_reference = Math.floor(Math.random()*99999999999).toString();
 					 

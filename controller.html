@@ -25,7 +25,8 @@
 			
 			 
 			var connection_client = new Connection_Client();
-			
+				// Your machines ip address on your network
+				connection_client.node_server = "http://192.168.0.15";
 				// Set the name of the device for logging actions, debugging etc
 				connection_client.device_reference = Math.floor(Math.random()*99999999999).toString();
 					 
@@ -38,7 +39,7 @@
 				var controller_object = new controller();
 					controller_object.node_connection_client = connection_client;
 					// Define how many photos there are to loop through
-					controller_object.total_items = 5,
+					controller_object.total_items = 5;
 					
 					controller_object.init()
 					
