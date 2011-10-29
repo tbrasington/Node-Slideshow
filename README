@@ -1,0 +1,30 @@
+You first need to install Node and NPM
+
+For OSX (you need git installed btw)
+
+	mkdir ~/local
+	echo 'export PATH=$HOME/local/bin:$PATH' >> ~/.bash_profile
+	. ~/.bash_profile
+	
+	# could also fork, and then clone your own fork instead of the official one
+	
+	git clone git://github.com/joyent/node.git
+	cd node
+	./configure --prefix=~/local
+	make install
+	cd ..
+	
+	git clone git://github.com/isaacs/npm.git
+	cd npm
+	make install # or `make link` for bleeding edge
+	
+
+There are two parts for this to work
+
+Once machine needs to connect to controller.html and then everyone else goes to view.html
+
+You can move through the images with the left, right and space bar keys.
+
+Images need to be stored in images/ and named sequentially from 0.jpg upwards. You could extend this to load in a JSON file with the file paths or use PHP to scan a directory for images and create an array.
+
+Enjoy!
