@@ -29,4 +29,12 @@ You can move through the images with the left, right and space bar keys.
 
 Images need to be stored in images/ and named sequentially from 0.jpg upwards. You could extend this to load in a JSON file with the file paths or use PHP to scan a directory for images and create an array.
 
+You define the number of images in controller.html with adjusting :
+	
+	controller_object.total_items = 5,
+
+
 Enjoy!
+
+
+Thanks to JonBennet (https://github.com/JonBennett) for setting up the server/ 
