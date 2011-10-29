@@ -4,7 +4,7 @@ var controller = function()
 	var that = this;
 	
 	this.node_connection_client=null,
-	this.total_items = 107,
+	this.total_items = 5,
 	this.position = 0,
 	
 	this.init = function()
